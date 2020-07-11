@@ -1,0 +1,27 @@
+body {
+    background-color: aqua;
+}
+
+p {
+    color: purple;
+}
+
+.container {
+    background-color: aliceblue;
+    padding: 20px;
+}
+
+.about-image {
+    border: solid 2px chartreuse;
+}
+
+.portfolio-image {
+    border: solid 3px black;
+    max-width: 300px;
+    margin: 10px;
+}
+
+.text-wrap {
+    float: left;
+    margin: 10px;
+}
