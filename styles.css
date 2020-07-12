@@ -1,24 +1,92 @@
 body {
-    background-color: aqua;
+    background-image: url(Assets/cool-background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 0px;
 }
 
 p {
-    color: purple;
+    color: darkslategray;
 }
 
+.text-bold {
+    font-weight: bold;
+}
+
+.navbar {
+    background-color: aliceblue;
+    opacity: 80%;
+}
+
+.btn {
+    background-color: slateblue;
+}
+
+footer {
+    background-color: indigo;
+    opacity: 50%;
+    color: aliceblue;
+    margin-bottom: 0px;
+    padding: 10px;
+    padding-bottom: 15px;
+}
+
+h1 {
+    font-family: 'Satisfy', cursive;
+    color: darkslategray;
+}
+
+span {
+    color: purple;
+    font-size: xx-large;
+    font-weight: bold;
+    font-family: 'Satisfy', cursive;
+}
+
+.footer-copyright {
+    margin-bottom: 0;
+}
 .container {
     background-color: aliceblue;
     padding: 20px;
+    margin-bottom: 50px;
+}
+
+.profile-container {
+    max-width: 800px;
+}
+
+.form-container {
+    max-width: 650px;
+    padding-left: 40px;
+    padding-right: 40px;
 }
 
 .about-image {
-    border: solid 2px chartreuse;
+    border: solid 2px darkslategray;
+}
+
+.portfolio-header {
+    padding-left: 20px;
+}
+
+.portfolio-container {
+    position: relative;
+    max-width: 800px;
 }
 
 .portfolio-image {
-    border: solid 3px black;
-    max-width: 300px;
+    position:relative;
+    border: solid 2px darkslategray;
+    max-width: 250px;
+    max-height: 250px;
     margin: 10px;
+}
+
+.text-block {
+    position: absolute;
+    background-color: bisque;
+    text-align: center;
 }
 
 .text-wrap {
