@@ -1,5 +1,5 @@
 body {
-    background-image: url(Assets/cool-background.png);
+    background-image: url(Assets/andrew-ridley-jR4Zf-riEjI-unsplash.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     margin-bottom: 0px;
@@ -15,17 +15,21 @@ p {
 
 .navbar {
     background-color: aliceblue;
-    opacity: 80%;
+    opacity: 95%;
 }
 
 .btn {
-    background-color: slateblue;
+    background-color: cadetblue;
+    color: aliceblue;
+}
+
+.portfolio-image-div a:hover {
+    opacity: 50%;
 }
 
 footer {
-    background-color: indigo;
-    opacity: 50%;
-    color: aliceblue;
+    background-color: gray;
+    color: darkslategray;
     margin-bottom: 0px;
     padding: 10px;
     padding-bottom: 15px;
@@ -36,11 +40,19 @@ h1 {
     color: darkslategray;
 }
 
+h2 {
+    font-size: 20pt;
+}
+
 span {
-    color: purple;
-    font-size: xx-large;
+    color: indigo;
+    font-size: 30pt;
     font-weight: bold;
     font-family: 'Satisfy', cursive;
+}
+
+.nav-item {
+    font-size: 20px;
 }
 
 .footer-copyright {
@@ -64,6 +76,7 @@ span {
 
 .about-image {
     border: solid 2px darkslategray;
+    width: 150px;
 }
 
 .portfolio-header {
@@ -71,23 +84,35 @@ span {
 }
 
 .portfolio-container {
-    position: relative;
     max-width: 800px;
 }
 
 .portfolio-image {
     position:relative;
     border: solid 2px darkslategray;
-    max-width: 250px;
-    max-height: 250px;
+    width: 250px;
+    height: 250px;
     margin: 10px;
 }
 
-.text-block {
-    position: absolute;
-    background-color: bisque;
+.portfolio-image-div {
+    position: relative;
     text-align: center;
+    color: darkslategray;
+    font-family: 'Satisfy', cursive;
+    font-size: 20pt;
+    font-weight: bold;
 }
+
+.label {
+    position: absolute;
+    bottom: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 246px;
+    background-color: white;
+    opacity: 80%;
+}    
 
 .text-wrap {
     float: left;
