@@ -1,8 +1,12 @@
-# ResponsiveDesign
-- I used the Bootstrap CSS Framework to create a mobile responsive portfolio
-- I used CSS to modify Bootstrap elements and add my own styles
+# portfolio
 
-Note on links: All the social media links on the About Me page go to my own profiles on the respective sites, but since I do not yet have any portfolio projects, the made-up projects on my Portfolio page have placeholder links in the html. As I create actual games and projects, I can update the portfolio page so that it includes names of, and links to, real projects.
+This website is my professional portfolio, including information about my background, links to my projects, and a contact me page.
+
+Website url: https://saramcguinn.github.io/portfolio/
+
+GitHub repo: https://github.com/saramcguinn/portfolio
+
+<img src="Assets/portfolio-screenshot.jpg" width=600>
 
 This project was challenging and immensely instructive. Bootstrap is awesome in a lot of ways, but it's not a replacement for html or CSS knowledge. I'm feeling relatively comfortable with html, and while I have a long way to go with CSS, this project forced me to struggle through the necessary trial and error to get better at styling. It was especially challenging - and rewarding - to modify existing Bootstrap elements, such as the hamburger menu button.
 
@@ -12,7 +16,7 @@ Things from class that I incorporated into this project:
 - Bootstrap grid & responsive layout
 - Semantic html elements
 - Organized CSS style sheet
-- Adjusting margins, padding, opacity, colors, text size, etc. to get a reasonably nice-looking result
+- Adjusting margins, padding, opacity, colors, font size, etc. to get a reasonably nice-looking result
 
 Things I learned:
 - CSS properties "outline", "background image", "object-fit"
